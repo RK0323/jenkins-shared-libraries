@@ -1,4 +1,4 @@
-def call(string giturl, string gitbranch){
+def call(String giturl, String gitbranch){
 git url: "${giturl}" , branch: "${gitbranch}"
 }
 
